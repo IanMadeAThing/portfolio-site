@@ -14,8 +14,10 @@
 
 text-align: center;
 padding: 100px 20px;
-background: linear-gradient(135deg, var(--primary), var(--secondary));
-color: var(--dark);
+background: linear-gradient(135deg,#42C6FF,#5FFCC8);
+background-size: cover;
+color: #4B4A60;
+
 
 }
 @media (min-width: 768px) {
@@ -54,6 +56,13 @@ padding: 15px;
 h2, h3 {
 
 color: var(--dark);
+
+}
+.featured h2 {
+
+color: #4B4A60;
+font-size: 32px;
+margin-bottom: 40px;
 
 }
 .navbar {
@@ -126,8 +135,9 @@ color: white;
 
 .featured {
 
-padding: 60px 20px;
+padding: 80px 20px;
 text-align: center;
+background: #FDE74C;
 
 }
 
@@ -142,18 +152,19 @@ padding: 30px;
 
 .project-card {
 
-background: var(--card-bg);
-padding: 20px;
+background: white;
+padding: 25px;
 border-radius: 10px;
-box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-transition: transform 0.2s;
+box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+transition: transform 0.2s ease;
+border-top: 6px solid #CF2F7F;
 
 }
 
 .project-card:hover {
 
-transform: translateY(-6px);
-border-top: 4px solid var(--primary);
+transform: translateY(-8px);
+box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 
 }
 
