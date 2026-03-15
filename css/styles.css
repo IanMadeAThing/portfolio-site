@@ -198,3 +198,17 @@ background: var(--dark);
 color: white;
 
 }
+.demo-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.demo-button:hover {
+  background-color: #555;
+}
