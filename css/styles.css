@@ -212,3 +212,41 @@ color: white;
 .demo-button:hover {
   background-color: #555;
 }
+
+.hero {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.current-work {
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.project-card ul {
+  padding-left: 20px;
+}
+
+.demo-button,
+.code-button {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 8px 14px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.demo-button:hover,
+.code-button:hover {
+  background: #333;
+}
